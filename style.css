@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -94,14 +94,93 @@ nav {
 }
 
 .personal__logo {
- width: 50%;
+ width: 25%;
+ height: 50%;
+ padding-right: 10px;
 }
 
-.link__lisg {
+ .link__list {
     padding-left: 50px;
 }
 
 h1 {
-   color: mediumslateblue;
+   color: black;
 }
+
+.NAV--BAR {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/*  BOX-1 */
+
+
+
+.input-email {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid grey;
+  padding: 5px;
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+.input-container {
+  border: none;
+  outline: none;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.link-purple {
+  background-color: mediumslateblue;
+  /*width*/
+  padding: 7px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+
+.link-purple:hover {
+  cursor: pointer;
+}
+
+.header-title {
+  font-size: 36px;
+  padding-top: 20px;
+}
+
+.customers {
+  padding-top: 70px;
+}
+
+.header-container {
+  display: flex;
+}
+
+.purple {
+  color: mediumslateblue;
+}
+
+.undraw-image1 {
+  width: 600px;
+  height: px;
+}
+
+.customer-image1 {
+  width: 400px;
+  height:px;
+  padding-top: 5px;
+}
+
+.row {
+  max-width: 83%;
+}
+
+.Header-paragraph {
+ padding-top: 20px;
+}
+
 

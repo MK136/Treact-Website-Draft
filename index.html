@@ -10,14 +10,12 @@
 <body>
     <section>
         <nav>
-            <container class="NAV-BAR">
-                <div>
-                    <figure class="personal__logo">
+                <figure class="Personal__logo">
+                    <div class="NAV--BAR">
                         <img  src="./Assets/Treact.jpg" class="personal__logo" alt="">
-                    </figure>
-                    <h1>Treact</h1>
-                </div>
-            </container>
+                        <h1>Treact</h1>
+                    </div>
+                </figure>
             <div>
                 <ul class ="nav__link--list">
                    <li class="nav__link"></li>
@@ -53,7 +51,7 @@
                    nav__link--anchor
                     link__hover-effect
                     link__hover-effect--black
-                    link__lisg
+                    link__list
                     ">Log in</a>
                    </li>
                    <li class="nav__link"></li>
@@ -67,12 +65,30 @@
                  </ul>
             </div>
         </nav>
-        <div>
-            <h2>Beautiful React Templates for you</h2>
-            <p>Our Templates are easy to setup,understand and customize.
-                Fully modular components with a variety of pages and components
-            </p>
-        </div>
+        <header>
+            <div class="row">
+                <div class="header-container">
+                    <div class="left">
+                        <div class="header-description">
+                         <h2 class="header-title"> Beautiful React Templates <span class="purple"> for you.</span></h2>
+                            <p class="Header-paragraph">Our Templates are easy to setup,understand and customize.
+                              Fully modular components with a variety of pages and components
+                            </p>
+                        </div>
+                        <div class="input-container">
+                         <input type="Email" placeholder= "your Email Address"  class="input-email">
+                          <button class="link-purple">Get Started</button>
+                        </div>
+                         <div class="customer-wrap">
+                        <p class="customers">OUR TRUSTED CUSTOMERS</p>
+                        <img src="./Assets/customers-logo-strip.png" class="customer-image1" alt="">
+                    </div>
+                    </div class="right">
+                     <img src="./Assets/undraw_winter_designer_a-2-m7.svg" class="undraw-image1" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
     </section>
     
 </body>
