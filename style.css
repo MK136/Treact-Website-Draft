@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 8000px;
+}
+
 a {
   text-decoration: none;
   position: relative;
@@ -118,29 +122,32 @@ h1 {
 
 
 .input-email {
-  width: 300px;
+  width: 330px;
   display: flex;
   justify-content: space-between;
-  border: 2px solid grey;
+  border: 1.5px solid darkgrey;
   padding: 5px;
   border-radius: 60px;
   overflow: hidden;
+  height: 50px;
 }
 
 .input-container {
   border: none;
   outline: none;
   padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 30px;
+  display: flex;
 }
 
 .link-purple {
   background-color: mediumslateblue;
   /*width*/
-  padding: 7px;
+  padding: 12px;
   border: none;
-  border-radius: 20px;
+  border-radius: 60px;
   color: white;
+  width: 110px; 
 }
 
 .link-purple:hover {
@@ -153,7 +160,8 @@ h1 {
 }
 
 .customers {
-  padding-top: 70px;
+  padding-top: 110px;
+  color: darkgrey;
 }
 
 .header-container {
@@ -165,13 +173,12 @@ h1 {
 }
 
 .undraw-image1 {
-  width: 600px;
-  height: px;
+  width: 60%;
+  padding-left: 30px;
 }
 
 .customer-image1 {
-  width: 400px;
-  height:px;
+  width: 370px;
   padding-top: 5px;
 }
 
@@ -181,6 +188,39 @@ h1 {
 
 .Header-paragraph {
  padding-top: 20px;
+ color: darkgrey;
+ font-size: 15px;
+ text-align:justify;
+}
+
+.left-container {
+  width: 40%;
+  align-items: center;
+}
+
+/* Box-2*/
+
+
+.feats {
+  color:mediumslateblue;
+  padding-top: 150px;
+}
+
+.services {
+color: mediumslateblue;
+}
+
+.service-title {
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+.features {
+  text-align: center;
+}
+
+.feat-para {
+  padding-top: 20px;
 }
 
 
